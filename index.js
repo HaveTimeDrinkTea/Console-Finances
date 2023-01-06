@@ -105,3 +105,12 @@ let netProfitLoss = 0;
 
 // Total months:
 console.log("Total Months:", periodNumTotal );
+
+for (var i = 0; i < periodNumTotal; i++) {
+  // sum of all profit and loss
+    netProfitLoss = netProfitLoss + finances[i][1];
+  };
+  
+  console.log("Total: £" + netProfitLoss.toLocaleString('en-GB'));
+console.log("Average Change: £" + avgProfitLoss);
+console.log("Greatest Increase in Profit");
