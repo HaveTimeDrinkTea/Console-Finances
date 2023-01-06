@@ -90,3 +90,11 @@ var finances = [
 // testing area
 
 console.log(finances[0][1]);
+console.log(finances[3][1]);
+
+// to check each period so there are no duplicates. If duplicates then need to sum them
+// total amount of Profit and loss
+// total of months
+// average of PL changes
+// max incresase in profit
+// max decrease in loss
