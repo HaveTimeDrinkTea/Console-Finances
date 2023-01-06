@@ -25,7 +25,7 @@ console.log(finances[3][1]);
 // define the vars
 let periodNumTotal = finances.length;
 let netProfitLoss = 0;
-
+let netProfitLosstest = 0;
 let plCompare = 0;
 let plCompareNetTotal = 0;
 let maxProfitAmt = 0;
@@ -34,13 +34,19 @@ let maxLossAmt = 0;
 var maxlossMth;
 
 
+for (var i = 0; i < periodNumTotal; i++) {
+  // sum of all profit and loss
+  netProfitLosstest= netProfitLosstest + finances[i][1];
+  console.log("round:", i,"cumul PL:, ", netProfitLosstest);
+};
+
 // Total months:
 console.log("Total Months:", periodNumTotal );
 
-for (var i = 0, j = 1; (i < periodNumTotal) &&  (j < periodNumTotal -1); i++, j++) {
+for (var i = 0, j = 1; (i <periodNumTotal) &&  (j < periodNumTotal); i++, j++) {
   // sum of all profit and loss
   netProfitLoss = netProfitLoss + finances[i][1];
-  console.log("round:", i)
+  console.log("round:", i);
   // find the changes in profit or changes in loss from period to period
 
     plCompare = (finances[j][1]) - (finances[i][1]);
