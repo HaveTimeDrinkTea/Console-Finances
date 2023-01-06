@@ -86,3 +86,7 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+
+// testing area
+
+console.log(finances[0][1]);
