@@ -98,3 +98,10 @@ console.log(finances[3][1]);
 // average of PL changes
 // max incresase in profit
 // max decrease in loss
+
+// define the vars
+let periodNumTotal = finances.length;
+let netProfitLoss = 0;
+
+// Total months:
+console.log("Total Months:", periodNumTotal );
