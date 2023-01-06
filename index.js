@@ -98,3 +98,27 @@ console.log(finances[3][1]);
 // average of PL changes
 // max incresase in profit
 // max decrease in loss
+
+// define the vars
+let periodNumTotal = finances.length;
+let netProfitLoss = 0;
+
+// Total months:
+console.log("Total Months:", periodNumTotal );
+
+for (var i = 0; i < periodNumTotal; i++) {
+  // sum of all profit and loss
+    netProfitLoss = netProfitLoss + finances[i][1];
+  };
+  
+let avgProfitLoss = parseFloat(parseFloat(netProfitLoss/periodNumTotal).toFixed(0)).toLocaleString("en-GB", {useGrouping: true,});  
+
+console.log("Greatest Increase in Profit");
+
+// Outputting the finance report:
+console.log("Financial Analysis");
+console.log("----------------------------");
+console.log("Total Months:", periodNumTotal );
+console.log("Total: £" + netProfitLoss.toLocaleString('en-GB'));
+console.log("Average Change: £" + avgProfitLoss);
+
