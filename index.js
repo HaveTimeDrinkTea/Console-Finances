@@ -111,10 +111,14 @@ for (var i = 0; i < periodNumTotal; i++) {
     netProfitLoss = netProfitLoss + finances[i][1];
   };
   
+let avgProfitLoss = parseFloat(parseFloat(netProfitLoss/periodNumTotal).toFixed(0)).toLocaleString("en-GB", {useGrouping: true,});  
 
-  
-  let avgProfitLoss = parseFloat(parseFloat(netProfitLoss/periodNumTotal).toFixed(0)).toLocaleString("en-GB", {useGrouping: true,});  
-  console.log("Total: £" + netProfitLoss.toLocaleString('en-GB'));
-console.log("Average Change: £" + avgProfitLoss);
 console.log("Greatest Increase in Profit");
+
+// Outputting the finance report:
+console.log("Financial Analysis");
+console.log("----------------------------");
+console.log("Total Months:", periodNumTotal );
+console.log("Total: £" + netProfitLoss.toLocaleString('en-GB'));
+console.log("Average Change: £" + avgProfitLoss);
 
