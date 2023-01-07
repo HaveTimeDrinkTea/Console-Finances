@@ -15,6 +15,7 @@ In addition to that, I have created another JScript that displays the summaries 
 
 
 ### Methodology: Pseudo Code
+* type here!
 
 
 
