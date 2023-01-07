@@ -18,10 +18,10 @@ In addition to that, I have created another JScript that displays the summaries 
 * Find the number of period. On inspection, the data is already sorting chronologically in ascending order. There are also no duplicate months. This means that the number of array elements is the number of period.
 * Find the total net profit and loss by adding up all the profit and loss amounts.
 * Compute the month to month difference in profit and loss amounts and use these newly computed differentials to compute:
-   ** the total of all the changes (A)
-   ** average of all the changes (A / number of months - 1)
-   ** find the maximum increase in profit and identify the periods (and corresponding profit & loss amounts) with this increase 
-   ** find the maximum decrease in profit and identify the periods (and corresponding profit & loss amounts) with this decrease 
+  * The total of all the changes (A)
+  * The average of all the changes (A / number of months - 1)
+  * The maximum increase in profit and identify the periods (and corresponding profit & loss amounts) with this increase 
+  * The maximum decrease in profit and identify the periods (and corresponding profit & loss amounts) with this decrease 
 
 
 ### Further Improvements
@@ -46,12 +46,12 @@ SO THAT manaagers can make use of this financial analysis to make decisions.
 The webpage must meet the following acceptance criteria:
 
 * Create a GitHub repo "Console-Finances" with the relevant starter files and cloned to local git repo.
-    ** Create a JScript to compute the following:
-    ** The total number of months included in the dataset.
-    ** The net total amount of Profit/Losses over the entire period.
-    ** The average of the **changes** in Profit/Losses over the entire period.
-    ** The period with the greatest increase in profits (date and amount)
-    ** The period with the greatest decrease in profits (date and amount) 
+* Create a JScript to compute the following:
+  * The total number of months included in the dataset.
+  * The net total amount of Profit/Losses over the entire period.
+  * The average of the **changes** in Profit/Losses over the entire period.
+  * The period with the greatest increase in profits (date and amount)
+  * The period with the greatest decrease in profits (date and amount) 
 
 
 
@@ -62,7 +62,6 @@ The webpage must meet the following acceptance criteria:
 * [Credits](#credits)
 * [License](#license)
 * [Features](#features)
-* [Testing](#testing)
 
 
 ## Installation
@@ -83,6 +82,7 @@ Screen shots of the submitted webpage on different screen sizes:
 ### Webpage
 
 ![Deployed Webpage](assets/images/console_finances_page.png)
+
 
 
 
