@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is part of the Frontend Dev Bootcamp course challenge for fourth week "JavaScript Fundamentals". 
+This project is part of the Frontend Dev Bootcamp course challenge for the fourth week "JavaScript Fundamentals". 
 
 It requires us to use JavaScript to analyze a dataset containing profit and loss amounts over time. On first glance, the data consists of 2 columns; Period name (Mmm-YYYY) and profit/loss amount (with positive and negative values). 
 
