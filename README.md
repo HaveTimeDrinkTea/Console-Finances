@@ -45,7 +45,7 @@ The webpage must meet the following acceptance criteria:
     ** The net total amount of Profit/Losses over the entire period.
     ** The average of the **changes** in Profit/Losses over the entire period.
     ** The period with the greatest increase in profits (date and amount)
-    ** The period with the greatest decrease in losses (date and amount) 
+    ** The period with the greatest decrease in profits (date and amount) 
 
 
 
@@ -95,6 +95,7 @@ MIT License
 ## Features
 
 * Financial analysis to be output to the browswer console.
+* Financial values are displayed in the British format with £ as the currency symbol and to the nearest £1. The average profit and loss changes is displayed to the nearest 2 decimal places instead. This is done using a JScript function.
 * The same information is displayed on the webpage well.
 
 
