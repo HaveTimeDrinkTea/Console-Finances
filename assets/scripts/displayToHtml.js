@@ -1,6 +1,4 @@
-// Outputting the finance report:
-
-
+// Display the finance report on webpage
 
 document.getElementById("tableFinAna").innerHTML = 
     ("<tr><th>Total Periods (Months)</th><td class='contentPLAmt'>" + periodNumTotal + "</td></tr>"
