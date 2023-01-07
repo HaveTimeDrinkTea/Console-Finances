@@ -83,8 +83,8 @@ function formatAmount(x, y) {
 console.log("----------------------------");
 console.log("Financial Analysis");
 console.log("----------------------------");
-console.log("Total Months:", periodNumTotal );
-console.log("Total profit and loss for the period: " + formatAmount(netProfitLoss, 0));
+console.log("Total Periods (Months):", periodNumTotal );
+console.log("Total Profit & Loss For The Period: " + formatAmount(netProfitLoss, 0));
 console.log("Total Period to Period Changes in Profit And Loss: " + formatAmount(plCompareNetTotal, 0));
 console.log("Average Period to Period Change in Profit and Loss: " + formatAmount(plCompareNetTotal / (periodNumTotal - 1), 2));
 console.log("Maximum Monthly Increase in Profit of", formatAmount(maxProfitAmtD,0), "is from", maxProfitMthFrom, "(" + formatAmount(maxProfitAmtFrom, 0) + ") to", maxProfitMthTo, "("+ formatAmount(maxProfitAmtTo , 0) + ").");
