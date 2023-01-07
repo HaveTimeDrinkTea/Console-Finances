@@ -3,40 +3,37 @@ body {
   background-color: #5c5d59;
   font-size: 62.5%;
 }
-h1, h2 {
+
+h1, h2, h3 {
   text-align: center;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
 }
 
 h3 {
-  text-align: center;
-  color: #fff;
   font-size: 1.2rem;
-  border-top: #fff  0.5rem double;
-  border-bottom: #fff  0.5rem double;
+  border-top:  0.5rem double #4bc2be;
+  border-bottom:  0.5rem double #4bc2be;
   width: 50VW;
   margin: auto;
   margin-bottom: 2rem;
+  color: #fff;
 }
 
 p {
   color: #fff;
   font-size: 1rem;
 }
-.dataset {
-  color: #fff;
-  font-size: 0.8rem;
-}
-span {
-  color: #fff;
-  font-size: 1.2rem;
-}
 
 section {
   margin-bottom: 3rem;
 
 }
+
 .finAnaContent {
   text-align: center;
 }
@@ -52,9 +49,13 @@ color: #fff;
 text-align: left;
 font-size: 1rem;
 background-color: #209d99;
+padding: 1rem;
 }
 
-th .center {
+td {
+  padding: 1rem;
+}
+.center {
 text-align: center;
 }
 
@@ -66,6 +67,20 @@ text-align: center;
 
 .contentPLPeriod {
   color: #fff;
-  text-align: right;
+  text-align: left;
   font-size: 1rem;
 }
+
+footer {
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  border: 0;
+  ;
+}
+footer p {
+color: #a7cb46;
+font-size: 1rem;
+text-align: center;
+}
+
