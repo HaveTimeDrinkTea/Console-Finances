@@ -15,13 +15,18 @@ In addition to that, I have created another JScript that displays the summaries 
 
 
 ### Methodology: Pseudo Code
-* type here!
-
-
+* Find the number of period. On inspection, the data is already sorting chronologically in ascending order. There are also no duplicate months. This means that the number of array elements is the number of period.
+* Find the total net profit and loss by adding up all the profit and loss amounts.
+* Compute the month to month difference in profit and loss amounts and use these newly computed differentials to compute:
+   ** the total of all the changes (A)
+   ** average of all the changes (A / number of months - 1)
+   ** find the maximum increase in profit and identify the periods (and corresponding profit & loss amounts) with this increase 
+   ** find the maximum decrease in profit and identify the periods (and corresponding profit & loss amounts) with this decrease 
 
 
 ### Further Improvements
 
+* Additional data checks such as check for duplicate months etc
 * Breakdown the analysis by year.
 * Interactive breakdown of the analysis on the frontend
 
