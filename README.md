@@ -10,7 +10,7 @@ The analysis should produce a report containing the certain summaries in the bro
 
 The JScript that produces the output into the browser's console is held in assets/scripts/index_computation.js. This should satisfy this challenge's requiremenmts.
 
-In addition to that, I have created another JScript that displays the summaries and data to the index.hml.  
+In addition to that, I have created another JScript that displays the summaries and data to the index.hml.  The computations have also been verified to be correct in a spreadsheet ([see PDF](assets/images/data.pdf)).
 
 
 
