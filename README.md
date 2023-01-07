@@ -19,10 +19,10 @@ In addition to that, I have created another JScript that displays the summaries 
 
 
 
-### Further Issues
+### Further Improvements
 
-* breakdown the analysis by year.
-* 
+* Breakdown the analysis by year.
+* Interactive breakdown of the analysis on the frontend
 
 
 
@@ -70,13 +70,13 @@ Screen shots of the submitted webpage on different screen sizes:
 
 ### Browser Console
 
-![Deployed Webpage's console](images/console_finances.png)
+![Deployed Webpage's console](assets/images/console_finances.png)
 
 
 
 ### Webpage
 
-![Deployed Webpage](images/console_finances_page.png)
+![Deployed Webpage](assets/images/console_finances_page.png)
 
 
 
