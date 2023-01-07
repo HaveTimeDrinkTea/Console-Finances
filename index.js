@@ -97,7 +97,7 @@ var finances = [
 
 // define the vars
 let periodNumTotal = finances.length;
-let netProfitLoss = finances[0][1];
+let netProfitLoss = finances[0][1]; //set to the first month's profit/loss
 let netProfitLosstest = 0;
 let plCompare = 0;
 let plCompareNetTotal = 0;
@@ -158,10 +158,7 @@ for (var i = 0, j = 1; (i < periodNumTotal) &&  (j < periodNumTotal); i++, j++) 
     // }
     ;
   };
-  
 
-
-// let avgPeriodD = parseFloat(parseFloat(plCompareNetTotal / (periodNumTotal - 1)).toFixed(2)).toLocaleString("en-GB", {useGrouping: true,});  
 
 function formatAmount(x, y) {
   x = x.toLocaleString('en-GB', {style: 'currency', 
@@ -170,17 +167,14 @@ function formatAmount(x, y) {
 }
 
 
-// maxProfitAmtFrom = formatAmount(maxProfitAmtFrom);
-
-// maxProfitAmtFrom = formatAmount(maxProfitAmtFrom);
 
 // Outputting the finance report:
 console.log("----------------------------");
 console.log("Financial Analysis");
 console.log("----------------------------");
 console.log("Total Months:", periodNumTotal );
-console.log("Total X: " + formatAmount(netProfitLoss, 0));
+console.log("Total profit and loss for the period: " + formatAmount(netProfitLoss, 0));
 console.log("Total Period to Period Changes in Profit And Loss: " + formatAmount(plCompareNetTotal, 0));
 console.log("Average Period to Period Change in Profit and Loss: " + formatAmount(plCompareNetTotal / (periodNumTotal - 1), 2));
-console.log("Maximum Monthly Increase in Profit of", formatAmount(maxProfitAmtD, 0), "is from", maxProfitMthFrom, "(" + formatAmount(maxProfitAmtFrom, 0) + ") to", maxProfitMthTo, "("+ formatAmount(maxProfitAmtTo , 0) + ").");
+console.log("Maximum Monthly Increase in Profit of", formatAmount(maxProfitAmtD,0), "is from", maxProfitMthFrom, "(" + formatAmount(maxProfitAmtFrom, 0) + ") to", maxProfitMthTo, "("+ formatAmount(maxProfitAmtTo , 0) + ").");
 console.log("Maximum Monthly Decrease in Profit of", formatAmount(maxLossAmtD, 0), "is from", maxLossMthFrom, "(" + formatAmount(maxLossAmtFrom, 0) + ") to", maxLossMthTo, "("+ formatAmount(maxLossAmtTo, 0) + ").");
