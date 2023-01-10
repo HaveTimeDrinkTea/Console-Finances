@@ -79,7 +79,7 @@ Screen shots of the submitted webpage on different screen sizes:
 
 
 
-### Webpage
+### Webpage (not part of this challenge's requirement)
 
 ![Deployed Webpage](assets/images/console_finances_page.png)
 
@@ -100,8 +100,9 @@ MIT License
 
 ## Features
 
-* Financial analysis to be output to the browswer console.
-* Financial values are displayed in the British format with £ as the currency symbol and to the nearest £1. The average profit and loss changes is displayed to the nearest 2 decimal places instead. This is done using a JScript function.
-* The same information is displayed on the webpage well.
+* Financial analysis that are output to the browser console.
+* Financial values are displayed in the British format with £ as the currency symbol and to the nearest £1. 
+* The average profit and loss changes is displayed to the nearest 2 decimal places instead. This is done using a JScript function.
+* The same information and the full dataset is displayed on the webpage as well.
 
 
